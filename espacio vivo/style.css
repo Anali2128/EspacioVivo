@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;1,9..40,300&family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+
+body{
+    background-color:bisque;
+}
+
+.logo{
+    box-shadow: 10px 10px 10px 10px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+.logo h1{
+    font-family:'Dancing Script', cursive;
+    font-weight: 800;
+    font-size: 72px;
+}
+.logo i{
+    color: black;
+    font-size: 32px;
+}
+h2{
+    font: size 32px;
+    font-weight: 400;
+}
+nav{
+    margin: 30px;
+    display: flex; 
+    flex-direction: row;
+    height: 40px; 
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    display:flex;
+
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color:brown;
+    padding: 10px 10px 10px;
+    transition: background-color 3ms;
+    font-weight: 400px;
+    font-size: 20px;
+    
+}
+
+
+nav a:hover {
+    background-color:crimson;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 3s;
+    transform: rotate(-360deg);
+    
+}
+
+main{
+    display: block;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.nuestroObjetivo{
+    display: block;
+    background-color: aliceblue;
+}
+.nuestroObjetivo p{
+    font-family: 'Dancing Script', cursiva;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.fotosVarias{
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+
+.fotosVarias img{
+    width:145px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.fotosVarias img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.fotosMuestras{
+    font-family: 'Courier New', Courier, monospace;
+    color: #E1306E;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+.fotosMuestras .muestra2019{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.fotosMuestras .muestra2019 img{
+
+    padding:4px;
+}
+.fotosMuestras .muestra2021{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.fotosMuestras .muestra2021 img{
+    padding:4px;
+}
+.fotosMuestras .muestra2022{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.fotosMuestras .muestra2022 img{
+    padding:4px;
+}
+
+.fotosMuestras .muestra2023{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.fotosMuestras .muestra2023 img{
+    padding:4px;
+}
+
+footer{
+    background-color:salmon;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    align-content: center;
+    padding-left:40%;
+}
+
+
+.redesSociales{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+
+
+}
+
+.redesSociales i{
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    size: 5px;
+}
+
+.redesSociales a:first-child{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.redesSociales h3{
+    color: black;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.redesSociales a:nth-child(2){
+    color: rgb(35, 146, 101);
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.redesSociales a:last-child{
+    color: #E1306E;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 20px;
+}
