@@ -67,7 +67,13 @@ nav a:hover {
     transform: rotate(-360deg);
     
 }
-
+.download{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    margin-left: 80px;
+    text-decoration: underline;
+    font-size: 15px;
+}
 main{
     display: block;
     justify-content: space-around;

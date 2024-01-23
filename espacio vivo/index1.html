@@ -30,8 +30,21 @@
         </header>
         <form action="enviar_formulario.php" method="post">
             <div class="inscripcion">
-            <label for="class">A QUE CLASE ME INSCRIBO</label><br>
-            <input type="text" id="class" required><br>
+            <label for="class">Clases</label><br>
+            <br>
+            <input type="checkbox" id="class" value="class">Jardin de Danza<br>
+            <input type="checkbox" id="class" value="class">Ballet niños<br>
+            <input type="checkbox" id="class" value="class">Zumba Kids<br>
+            <input type="checkbox" id="class" value="class">Urban Kids<br>
+            <input type="checkbox" id="class" value="class">Danza Jazz Teens<br>
+            <input type="checkbox" id="class" value="class">Jazz Contempo Teens<br>
+            <input type="checkbox" id="class" value="class">K-POP<br>
+        
+            <input type="checkbox" id="class" value="class">Urban Teens<br>
+            <input type="checkbox" id="class" value="class">Ballet Adultos<br>
+            <input type="checkbox" id="class" value="class">Danza Jazz Adultos<br>
+            <input type="checkbox" id="class" value="class">Contemporaneo Adultos<br>
+            <input type="checkbox" id="class" value="class">Stretching y Meditacion<br>
             <br>
             <label for="name">Nombre:</label><br>
             <input type="text" id="name" required><br>
@@ -59,6 +72,12 @@
             <br>
             <label for="observations">Observaciones a tener en cuenta:</label><br>
             <input type="text" id="observations" required><br>
+            <br>
+            <label for="archivo">Subir Planilla de Datos Complementarios</label><br>
+            <input type="file" id="archivo" name="archivo" value="file"><br>
+            <br>
+            <input type="checkbox" name="condiciones" id="condiciones">¿Estas de acuerdo en que publiquemos fotos de los alumnos en las redes Sociales?
+            <br>
             <br>
             <button type="submit">ENVIAR</button>
             </div><br>
