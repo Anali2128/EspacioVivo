@@ -67,8 +67,8 @@ nav a:hover {
 main{
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    gap: 20px;
+    margin: 15px;
+    gap: 15px;
 }
 main img{
     padding-left: 55px;
@@ -77,6 +77,26 @@ main img{
 
 
 
+.ourplacegallery{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+}
+
+.ourplacegallery img{
+    width:145px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.ourplacegallery img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
 
 
 
