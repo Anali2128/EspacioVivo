@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espacio Vivo</title>
+    <style>
+        #map-container {
+            height: 50px;
+            width: 100px;
+            border: 1px solid #ccc;
+            }
+    </style>
     <script src="https://kit.fontawesome.com/cafedb95ca.js" crossorigin="anonymous"></script>
+    <script async src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyD4eJgZrUXmM387ZTZKQCa8HGdd5F0fyQQcallback=initMap>"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;1,9..40,300&family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -64,11 +72,15 @@
 
     </main>
 
+
+
     <footer>
-        <section class="Location">
-            <p>Como llegar</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.2489126160517!2d-58.384978024333556!3d-34.749322105296784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd31dc7413d1f%3A0xf2b235e9c867e21f!2sEspacio%20Vivo!5e0!3m2!1ses!2sar!4v1706026893949!5m2!1ses!2sar" width="80" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy=" no-referrer-when-downgrade"></iframe>
-    </section>
+        <div class="card"><!-- para css -->
+            <p>Donde estamos</p>
+            
+            <div id="map-container"></div>
+    
+        </div>
     <br>
         <div class="redesSociales">
             <a href="mailto:espaciovivo@hotmail.com"><i class="fa-solid fa-envelope-circle-check"></i><h3>espaciovivo@hotmail.com</h3></a>
@@ -78,6 +90,7 @@
         
         
     </footer>
-
+    <script src="app.js"></script>
+    
 </body>
 </html>

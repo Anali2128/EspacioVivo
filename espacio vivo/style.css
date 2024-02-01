@@ -174,12 +174,11 @@ footer{
     align-content: center;
     padding-left:40%;
 }
-.location{
-    margin: 0px;
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.location iframe{
-    padding-right: 20px;
-    }
 
 .redesSociales{
     font-size: 10px;
