@@ -189,3 +189,66 @@ footer{
     text-decoration: none;
     font-size: 20px;
 }
+
+/* Estilos para pantallas pequeñas (menos de 768px de ancho) */
+@media screen and (max-width: 500px) {
+    /* Ejemplo: Cambiar tamaño de fuente en el encabezado */
+    header h1 {
+        font-size: 20px;
+    }
+
+    /* Ejemplo: Cambiar tamaño de fuente en el menú de navegación */
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    /* Ejemplo: Alinear elementos de navegación verticalmente */
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    /* Agrega más estilos específicos para pantallas pequeñas aquí */
+}
+
+/* Estilos para pantallas medianas (entre 768px y 1023px de ancho) */
+@media screen and  (max-width: 800px) {
+    /* Ejemplo: Cambiar tamaño de fuente en el encabezado */
+    header h1 {
+        font-size: 24px;
+    }
+
+    /* Ejemplo: Cambiar tamaño de fuente en el menú de navegación */
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    /* Ejemplo: Alinear elementos de navegación horizontalmente */
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Agrega más estilos específicos para pantallas medianas aquí */
+}
+
+/* Estilos para pantallas grandes (1024px de ancho o más) */
+@media screen and (max-width: 1200px) {
+    /* Ejemplo: Cambiar tamaño de fuente en el encabezado */
+    header h1 {
+        font-size: 28px;
+    }
+
+    /* Ejemplo: Cambiar tamaño de fuente en el menú de navegación */
+    header nav ul li a {
+        font-size: 18px;
+    }
+
+    /* Ejemplo: Alinear elementos de navegación horizontalmente */
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Agrega más estilos específicos para pantallas grandes aquí */
+}

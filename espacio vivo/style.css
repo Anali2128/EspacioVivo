@@ -230,4 +230,109 @@ footer{
 }
 
 
-@media
+css
+
+//* Media queries para tamaños de pantalla pequeños (móviles) */
+@media screen and (max-width: 500px) {
+    header  {
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    nav {
+        display: none; /* Ocultar el menú principal en pantallas pequeñas */
+    }
+
+    .download {
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    /* Ocultar las secciones de fotos en pantallas pequeñas */
+    .fotosVarias, 
+    .fotosMuestras img {
+        display: none;
+    }
+
+    .nuestroObjetivo {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-bottom: 20px; /* Aplica margen inferior al footer en pantallas pequeñas */
+    }
+}
+
+
+/* Media queries para tamaños de pantalla medianos (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    nav {
+        display: block; /* Mostrar el menú principal en tamaños de pantalla medianos */
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .download {
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .fotosVarias, .fotosMuestras {
+        display: none; /* Ocultar las secciones de fotos en tamaños de pantalla medianos */
+    }
+
+    .nuestroObjetivo {
+        margin-bottom: 20px;
+    }
+
+    footer .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Media queries para tamaños de pantalla grandes (escritorio) */
+@media only screen and (max-width: 1200px) {
+    .download {
+        text-align: right;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .fotosVarias, .fotosMuestras {
+        display: block; /* Mostrar las secciones de fotos en tamaños de pantalla grandes */
+    }
+
+    .nuestroObjetivo {
+        margin-bottom: 20px;
+    }
+
+    footer .card {
+        margin-bottom: 20px;
+    }
+}

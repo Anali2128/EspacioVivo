@@ -68,8 +68,19 @@ nav a:hover {
     
 }
 
+.Galeria2023{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Galeria2023 .fotos {
+    margin: 15px;
+    columns: 8;
+    gap: 10px;
+    
 
-
+}
 
 
 
@@ -143,4 +154,39 @@ footer{
     flex-direction: row;
     text-decoration: none;
     font-size: 20px;
+}
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 500px) {
+    /* Ajustar estilos para el encabezado */
+    
+
+    /* Ajustar estilos para el menú de navegación */
+    
+
+    
+
+    /* Ajustar estilos para las imágenes en la sección de fotos */
+   
+}
+
+/* Media query para pantallas medianas */
+@media screen and  (max-width: 800px) {
+    /* Ajustar estilos para el encabezado */
+  
+    /* Ajustar estilos para el menú de navegación */
+    
+
+    /* Ajustar estilos para las imágenes en la sección de fotos */
+ 
+}
+
+/* Media query para pantallas grandes */
+@media screen and (max-width: 1200px) {
+    /* Ajustar estilos para el encabezado */
+    
+    /* Ajustar estilos para el menú de navegación */
+   
+
+    /* Ajustar estilos para las imágenes en la sección de fotos */
+    
 }
